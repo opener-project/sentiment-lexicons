@@ -6,8 +6,7 @@ This is the list of lexicons created and stored in different subfolders:
 
 ##lexicons_from_annotations##
 
-Lexicons created from the manual annotated data (which can be found
-in also in github, https://github.com/opener-project/opinion_annotations_LANG where $LANG can be
+Lexicons created from the manual annotated data (this data can be found also in github, https://github.com/opener-project/opinion_annotations_LANG where $LANG can be
 en/es/fr/nl/de/it) using the supervised
 heuristic implemented in https://github.com/opener-project/opinion-domain-lexicon-acquisition
 
@@ -24,7 +23,14 @@ These are the parameters used for the automatic propagation of the lexicons:
 * Maximum 5 iterations of propagation starting from the seed list (these lists can be found as well in the data)
 * Majority voting heuristic for converting synset-based lexicon to lemma-based.
 
+The methodology, evaluation and further details of our approach and implementation of the propagation algorithm can be found in the PDF file
+fivepropagations_lrec2014.pdf. Please cite the next paper if you use this work:
 
+```
+Generating Polarity Lexicons with WordNet propagation in 5 languages
+Isa Maks, Ruben Izquierdo, Francesca Frontini, Montse Cuadros, Rodrigo Agerri and Piek Vossen
+9th LREC, Language Resources and Evaluation Conference. May 2014. Reykjavik, Iceland.
+```
 
 ##Contact##
 * Ruben Izquierdo
