@@ -52,7 +52,36 @@ star rating.
 
 ##cross_cultural multilingual lexicon##
 
-This folder contains ...
+This folder the OpeNER cross-lingual lexical resource, which consists of domain-related opinion expressions in the 6 OpeNER languages with mutual inter-lingual and intra-lingual links. The expressions are classified in a sentiment category and labelled for aspect class. A set of opinion expressions within the same aspect class and mutually linked by inter- and intra-lingual links is called a “cross-lingual scale”. The lexicon is built semi-automatically amd starts form the manual opinions of the OpeNER annotated corpus. The annotated opinion expressions are linked to each other with inter-lingual and intra-lingual links. 
+
+More information on the resource can be found in OpeNER deliverable D5.21. The lexicon is published in 2 formats CSV and OPeNER-LMF (XML).
+
++ CSV (crosslingual.csv)
+de;unfreundlich;negative;BEHAVIOUR;11
+en;unfriendly;negative;BEHAVIOUR;11
+fr;très peu aimable;strongnegative;BEHAVIOUR;11
+nl;niet bepaald vriendelijk;negative;BEHAVIOUR;11
+nl;alles behalve vriendelijk;strongnegative;BEHAVIOUR;11
+en;not friendly at all;strongnegative;BEHAVIOUR;11
+fr;pas aimable;negative;BEHAVIOUR;11
+nl;niet vriendelijk;negative;BEHAVIOUR;11
+
+each row presents :  languageid, the opinion expression, polarity, aspect group, clsId 
+clsId is the id which links together a group of opinion expressions within and across different languages
+
++ OpeNER LMF XML (crosslingual.lmf)
+The LMF version of the lexicon includes the same information as the CSV but represented according to the Lexicon Markup Format guidelines.
+cf. D5.21 and the dtd for more information on this version of the resource
+
+
++ OpeNER LMF dtd (opener_LMF_ML.dtd)
+The dtd  is a second  version of the OpeNER LMF dtd for sentiment lexicons extended with a component for description of multilingual data. 
+
+
+
+
+
+
 
 ##Contact##
 * Ruben Izquierdo
