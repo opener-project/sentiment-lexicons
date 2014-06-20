@@ -50,6 +50,9 @@ values of association of the words with each rating (the lexicon is sorted accor
 to this value). The last field are the values of association of the ngram with each
 star rating.
 
+##cross_cultural multilingual lexicon##
+
+This folder contains ...
 
 ##Contact##
 * Ruben Izquierdo
