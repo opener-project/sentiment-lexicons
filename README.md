@@ -57,6 +57,7 @@ This folder the OpeNER cross-lingual lexical resource, which consists of domain-
 More information on the resource can be found in OpeNER deliverable D5.21. The lexicon is published in 2 formats CSV and OPeNER-LMF (XML).
 
 + CSV (crosslingual.csv)
+```shell
 de;unfreundlich;negative;BEHAVIOUR;11
 en;unfriendly;negative;BEHAVIOUR;11
 fr;très peu aimable;strongnegative;BEHAVIOUR;11
@@ -65,7 +66,7 @@ nl;alles behalve vriendelijk;strongnegative;BEHAVIOUR;11
 en;not friendly at all;strongnegative;BEHAVIOUR;11
 fr;pas aimable;negative;BEHAVIOUR;11
 nl;niet vriendelijk;negative;BEHAVIOUR;11
-
+```
 each row presents :  languageid, the opinion expression, polarity, aspect group, clsId 
 clsId is the id which links together a group of opinion expressions within and across different languages
 
