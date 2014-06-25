@@ -50,7 +50,7 @@ values of association of the words with each rating (the lexicon is sorted accor
 to this value). The last field are the values of association of the ngram with each
 star rating.
 
-##cross_cultural multilingual lexicon##
+##cross_cultural_multilingual_lexicon##
 
 This folder the OpeNER cross-lingual lexical resource, which consists of domain-related opinion expressions in the 6 OpeNER languages with mutual inter-lingual and intra-lingual links. The expressions are classified in a sentiment category and labelled for aspect class. A set of opinion expressions within the same aspect class and mutually linked by inter- and intra-lingual links is called a “cross-lingual scale”. The lexicon is built semi-automatically amd starts form the manual opinions of the OpeNER annotated corpus. The annotated opinion expressions are linked to each other with inter-lingual and intra-lingual links. 
 
