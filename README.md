@@ -56,7 +56,7 @@ This folder the OpeNER cross-lingual lexical resource, which consists of domain-
 
 More information on the resource can be found in OpeNER deliverable D5.21. The lexicon is published in 2 formats CSV and OPeNER-LMF (XML).
 
-+ CSV (crosslingual.csv)
+### CSV (crosslingual.csv)
 ```shell
 de;unfreundlich;negative;BEHAVIOUR;11
 en;unfriendly;negative;BEHAVIOUR;11
@@ -70,12 +70,12 @@ nl;niet vriendelijk;negative;BEHAVIOUR;11
 each row presents :  languageid, the opinion expression, polarity, aspect group, clsId 
 clsId is the id which links together a group of opinion expressions within and across different languages
 
-+ OpeNER LMF XML (crosslingual.lmf)
+### OpeNER LMF XML (crosslingual.lmf)
 The LMF version of the lexicon includes the same information as the CSV but represented according to the Lexicon Markup Format guidelines.
 cf. D5.21 and the dtd for more information on this version of the resource
 
 
-+ OpeNER LMF dtd (opener_LMF_ML.dtd)
+### OpeNER LMF dtd (opener_LMF_ML.dtd)
 The dtd  is a second  version of the OpeNER LMF dtd for sentiment lexicons extended with a component for description of multilingual data. 
 
 
