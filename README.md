@@ -1,15 +1,15 @@
-#Sentiment lexicons#
+# Sentiment lexicons
 
 This repository contains the lexicons created automatically from the OpeNER hotel annotations and by applying a technique to find
 words related with hotel ratings.
 
-##lexicons_from_annotations##
+## lexicons_from_annotations
 Lexicons created from the manual annotated data (this data can
  be found also in github, https://github.com/opener-project/opinion_annotations_LANG where
- $LANG can be en/es/fr/nl/de/it) using the supervised 
+ $LANG can be en/es/fr/nl/de/it) using the supervised
 heuristic implemented in https://github.com/opener-project/opinion-domain-lexicon-acquisition
 
-##rating_lexicons##
+## rating_lexicons
 
 This folder contains lexicons for 1-, 2- and 3-grams of expressions associated with star ratings. They have been compiled automatically for
 English and Dutch using our domain acquisition toolkit (https://github.com/opener-project/opinion-domain-lexicon-acquisition) and a large
@@ -27,7 +27,7 @@ values of association of the words with each rating (the lexicon is sorted accor
 to this value). The last field are the values of association of the ngram with each
 star rating.
 
-##Contact##
+## Contact
 * Ruben Izquierdo
 * Vrije University of Amsterdam
 * ruben.izquierdobevia@vu.nl
